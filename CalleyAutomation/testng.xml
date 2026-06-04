@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="CalleyAutomation Suite" parallel="false">
+    <listeners>
+        <listener class-name="utilities.TestListener" />
+    </listeners>
+
+    <test name="CalleySuite">
+        <classes>
+            <class name="tests.SmokeTest" />
+            <class name="tests.RegistrationTest" />
+            <class name="tests.LoginTest" />
+            <class name="tests.AgentTest" />
+            <class name="tests.ImportCSVTest" />
+        </classes>
+    </test>
+
+</suite>
+
+
